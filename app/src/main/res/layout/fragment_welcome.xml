@@ -46,7 +46,7 @@
         android:gravity="start"
         android:paddingStart="@dimen/margin_large"
         android:paddingEnd="@dimen/margin_large"
-        android:text="Welcome to Data Monitor"
+        android:text="Welcome to Data Usage Track"
         android:textAppearance="@style/TextAppearance.Material3.DisplayMedium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

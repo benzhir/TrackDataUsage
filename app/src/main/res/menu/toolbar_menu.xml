@@ -6,6 +6,7 @@
         android:title="@string/settings"
         android:icon="@drawable/ic_baseline_settings"
         app:showAsAction="always"
-        android:iconTint="@color/text_primary"/>
+        android:iconTint="@color/text_primary"
+        android:visible="false"/>
 
 </menu>

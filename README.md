@@ -33,8 +33,8 @@ Track all your data usage - at one place
 <br><br>
 
 ## Download
-[<img alt="Get it on Google Play" height="85" src="./images/google-play-badge.png">](https://play.google.com/store/apps/details?id=com.drnoob.datamonitor)<br><br>
-[<img alt="Get it on F-Droid" height="85" src="./images/f-droid-badge.png">](https://f-droid.org/packages/com.drnoob.datamonitor/)<br><br>
+[<img alt="Get it on Google Play" height="85" src="./images/google-play-badge.png">](https://play.google.com/store/apps/details?id)<br><br>
+[<img alt="Get it on F-Droid" height="85" src="./images/f-droid-badge.png">](https://f-droid.org/packages/)<br><br>
 Or check <a href = "https://github.com/itsdrnoob/DataMonitor/releases/latest">releases</a>
 
 ## Changelog
@@ -58,8 +58,8 @@ Cick <a href="https://t.me/datamonitor">here</a> to join the telegram support ch
 ## Beta Builds
 Beta builds for Data Monitor will be available on Play Store and <a href="https://t.me/datamonitor">Telegram</a>.<br>
 Join the Beta program on:<br>
-<a href="https://play.google.com/store/apps/details?id=com.drnoob.datamonitor">Google Play</a><br>
-<a href="https://play.google.com/apps/testing/com.drnoob.datamonitor">Web</a><br>
+<a href="https://play.google.com/store/apps/details?id">Google Play</a><br>
+<a href="https://play.google.com/apps/testing">Web</a><br>
 Latest Beta: <a href="https://github.com/itsdrnoob/DataMonitor/tree/dev/2.3.0">v2.3.0-Beta4</a>
 
 ## License

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Data Monitor</string>
+    <string name="app_name">Data Usage Track</string>
     <string name="appwidget_text">Example</string>
     <string name="add_widget">Add widget</string>
 
@@ -64,12 +64,12 @@
     <string name="title_widget_setup">Set up the widget</string>
     <string name="widget_setup_step_1">1. Touch and hold an empty space on your home screen.</string>
     <string name="widget_setup_step_2">2. Tap \"Widgets\".</string>
-    <string name="widget_setup_step_3">3. Drag and drop the Data Monitor widget onto your home screen.</string>
+    <string name="widget_setup_step_3">3. Drag and drop the Data Usage Track widget onto your home screen.</string>
     <string name="heading_data_usage_today">Today\'s data usage</string>
     <string name="action_add_data_plan_home">Add your data plan to start monitoring it</string>
     <string name="heading_week_overview">This week\'s overview</string>
     <string name="error_loading_overview">Could not load this week\'s overview.\nTry again later.</string>
-    <string name="title_setup">Setup Data monitor</string>
+    <string name="title_setup">Setup Data Usage Track</string>
     <string name="setup_widget">Set up the widget</string>
     <string name="setup_notification">Set up notifications</string>
     <string name="title_configure">Configure</string>
@@ -164,7 +164,7 @@
     <string name="label_data_remaining">%1$s remaining</string>
     <string name="label_data_remaining_used_excess">%1$s extra used</string>
     <string name="disable_battery_optimisation">Turn off battery optimisation</string>
-    <string name="disable_battery_optimisation_body">Prevents killing Data Monitor when running in the background.\nOtherwise values might be incorrect.</string>
+    <string name="disable_battery_optimisation_body">Prevents killing Data Usage Track when running in the background.\nOtherwise values might be incorrect.</string>
     <string name="extra_optimisation_tips">Extra optimisation tips</string>
     <string name="oem_battery_settings">OEM battery settings</string>
     <string name="action_next">Next</string>

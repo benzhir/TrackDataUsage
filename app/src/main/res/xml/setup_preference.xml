@@ -3,19 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Preference
-        android:layout="@layout/layout_setup_header"/>
+        android:layout="@layout/layout_setup_header"
+        app:isPreferenceVisible="false" />
 
     <com.drnoob.datamonitor.core.base.PreferenceHeader
         android:title="@string/title_setup"
         app:allowDividerBelow="false"
         app:allowDividerAbove="false"
-        app:iconSpaceReserved="false">
+        app:iconSpaceReserved="false"
+        app:isPreferenceVisible="false">
 
         <com.drnoob.datamonitor.core.base.Preference
             android:icon="@drawable/ic_widget"
             android:key="setup_widget"
             android:title="@string/setup_widget"
-            app:widgetLayout="@layout/preference_right_arrow"/>
+            app:widgetLayout="@layout/preference_right_arrow"
+            app:isPreferenceVisible="false"/>
 
         <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
             android:icon="@drawable/ic_notification"
@@ -26,7 +29,8 @@
             android:icon="@drawable/ic_mobile_data"
             android:key="network_signal_notification"
             android:title="@string/network_signal_notification"
-            android:summary="@string/network_signal_summary"/>
+            android:summary="@string/network_signal_summary"
+            app:isPreferenceVisible="false"/>
 
     </com.drnoob.datamonitor.core.base.PreferenceHeader>
 
@@ -39,7 +43,8 @@
             android:title="@string/setup_widget_title"
             app:allowDividerAbove="false"
             app:allowDividerBelow="false"
-            app:iconSpaceReserved="false">
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false">
 
             <com.drnoob.datamonitor.core.base.Preference
                 android:title="@string/setup_widget_refresh_interval"
@@ -73,7 +78,8 @@
             android:title="@string/setup_notification_title"
             app:allowDividerAbove="false"
             app:allowDividerBelow="false"
-            app:iconSpaceReserved="false">
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false">
 
             <com.drnoob.datamonitor.core.base.Preference
                 android:title="@string/setup_notification_refresh_interval"
@@ -135,7 +141,8 @@
             android:title="@string/monitor_data"
             app:iconSpaceReserved="false"
             app:allowDividerAbove="false"
-            app:allowDividerBelow="false">
+            app:allowDividerBelow="false"
+            app:isPreferenceVisible="false">
 
             <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/setup_data_alert"
