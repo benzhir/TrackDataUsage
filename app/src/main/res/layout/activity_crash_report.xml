@@ -108,7 +108,7 @@
 
             <fragment
                 android:id="@+id/send_report_view"
-                class="com.drnoob.datamonitor.ui.activities.CrashReportActivity$SendReportFragment"
+                class="com.hc2i.datamonitor.ui.activities.CrashReportActivity$SendReportFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

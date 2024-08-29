@@ -8,11 +8,11 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.drnoob.datamonitor"
+        applicationId "com.hc2i.datamonitor"
         minSdkVersion 23
         targetSdkVersion 33
         versionCode 24
-        versionName 'v2.3.2'
+        versionName 'v1.0.0'
         resConfigs "en", "ar", "cs", "de", "es", "fr", "hi", "in", "it", "ja", "ko",
                 "ml", "mr", "nb-rNO", "nl", "pl", "pt-rBR", "ro", "ru", "tr", "uk", "uz", "vi", "zh-rCN", "zh-rTW"
 

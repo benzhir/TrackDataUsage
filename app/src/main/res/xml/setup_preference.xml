@@ -6,122 +6,122 @@
         android:layout="@layout/layout_setup_header"
         app:isPreferenceVisible="false" />
 
-    <com.drnoob.datamonitor.core.base.PreferenceHeader
+    <com.hc2i.datamonitor.core.base.PreferenceHeader
         android:title="@string/title_setup"
         app:allowDividerBelow="false"
         app:allowDividerAbove="false"
         app:iconSpaceReserved="false"
         app:isPreferenceVisible="false">
 
-        <com.drnoob.datamonitor.core.base.Preference
+        <com.hc2i.datamonitor.core.base.Preference
             android:icon="@drawable/ic_widget"
             android:key="setup_widget"
             android:title="@string/setup_widget"
             app:widgetLayout="@layout/preference_right_arrow"
             app:isPreferenceVisible="false"/>
 
-        <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+        <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
             android:icon="@drawable/ic_notification"
             android:key="setup_notification"
             android:title="@string/setup_notification" />
 
-        <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+        <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
             android:icon="@drawable/ic_mobile_data"
             android:key="network_signal_notification"
             android:title="@string/network_signal_notification"
             android:summary="@string/network_signal_summary"
             app:isPreferenceVisible="false"/>
 
-    </com.drnoob.datamonitor.core.base.PreferenceHeader>
+    </com.hc2i.datamonitor.core.base.PreferenceHeader>
 
-    <com.drnoob.datamonitor.core.base.PreferenceHeader
+    <com.hc2i.datamonitor.core.base.PreferenceHeader
         app:allowDividerAbove="false"
         app:allowDividerBelow="false"
         app:iconSpaceReserved="false">
 
-        <com.drnoob.datamonitor.core.base.PreferenceCategory
+        <com.hc2i.datamonitor.core.base.PreferenceCategory
             android:title="@string/setup_widget_title"
             app:allowDividerAbove="false"
             app:allowDividerBelow="false"
             app:iconSpaceReserved="false"
             app:isPreferenceVisible="false">
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/setup_widget_refresh_interval"
                 app:iconSpaceReserved="false"
                 android:key="widget_refresh_interval"
                 android:summary="@string/refresh_interval_placeholder"
                 app:widgetLayout="@layout/preference_right_arrow"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/setup_show_remaining_data"
                 app:iconSpaceReserved="false"
                 android:key="remaining_data_info"
                 android:defaultValue="true"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/setup_show_wifi_usage"
                 app:iconSpaceReserved="false"
                 android:key="widget_show_wifi_usage"
                 android:defaultValue="true"/>
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/setup_refresh_widget"
                 android:summary="@string/refresh_widget_summary"
                 android:key="refresh_widget"
                 app:iconSpaceReserved="false"/>
 
 
-        </com.drnoob.datamonitor.core.base.PreferenceCategory>
+        </com.hc2i.datamonitor.core.base.PreferenceCategory>
 
-        <com.drnoob.datamonitor.core.base.PreferenceCategory
+        <com.hc2i.datamonitor.core.base.PreferenceCategory
             android:title="@string/setup_notification_title"
             app:allowDividerAbove="false"
             app:allowDividerBelow="false"
             app:iconSpaceReserved="false"
             app:isPreferenceVisible="false">
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/setup_notification_refresh_interval"
                 app:iconSpaceReserved="false"
                 android:key="notification_refresh_interval"
                 android:summary="@string/refresh_interval_placeholder"
                 app:widgetLayout="@layout/preference_right_arrow"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/setup_show_mobile_usage"
                 android:key="show_mobile_data_notification"
                 app:iconSpaceReserved="false"
                 android:defaultValue="true"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/setup_show_wifi_usage"
                 android:key="show_wifi_notification"
                 app:iconSpaceReserved="false"
                 android:defaultValue="true"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/always_show_total"
                 android:summary="@string/always_show_total_summary"
                 android:key="always_show_total"
                 app:iconSpaceReserved="false"
                 android:defaultValue="true"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/auto_hide_live_network"
                 android:summary="@string/auto_hide_live_network_summary"
                 android:key="auto_hide_network_speed"
                 app:iconSpaceReserved="false"
                 android:defaultValue="false"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/combine_notifications"
                 android:summary="@string/combine_notifications_summary"
                 android:key="combine_notifications"
                 app:iconSpaceReserved="false"
                 android:defaultValue="false"/>
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/combined_notification_icon"
                 app:iconSpaceReserved="false"
                 android:key="combined_notification_icon"
@@ -129,66 +129,66 @@
                 app:isPreferenceVisible="false"
                 app:widgetLayout="@layout/preference_right_arrow"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/lockscreen_notification"
                 android:key="lockscreen_notification"
                 app:iconSpaceReserved="false"
                 android:defaultValue="false"/>
 
-        </com.drnoob.datamonitor.core.base.PreferenceCategory>
+        </com.hc2i.datamonitor.core.base.PreferenceCategory>
 
-        <com.drnoob.datamonitor.core.base.PreferenceCategory
+        <com.hc2i.datamonitor.core.base.PreferenceCategory
             android:title="@string/monitor_data"
             app:iconSpaceReserved="false"
             app:allowDividerAbove="false"
             app:allowDividerBelow="false"
             app:isPreferenceVisible="false">
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/setup_data_alert"
                 android:key="data_usage_alert"
                 app:iconSpaceReserved="false"
                 app:summary="@string/data_alert_summary"/>
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/title_data_warning_trigger"
                 android:key="data_warning_trigger_level"
                 app:summary="@string/label_data_trigger_level"
                 app:iconSpaceReserved="false"
                 app:widgetLayout="@layout/preference_right_arrow"/>
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/setup_app_data_usage_alert"
                 android:key="app_data_limit"
                 app:summary="Notify when an app has consumed a specific amount of data"
                 app:iconSpaceReserved="false"
                 app:isPreferenceVisible="false"
-                android:fragment="com.drnoob.datamonitor.ui.fragments.DonateFragment"
+                android:fragment="com.hc2i.datamonitor.ui.fragments.DonateFragment"
                 app:widgetLayout="@layout/preference_right_arrow"/>
 
-        </com.drnoob.datamonitor.core.base.PreferenceCategory>
+        </com.hc2i.datamonitor.core.base.PreferenceCategory>
 
-        <com.drnoob.datamonitor.core.base.PreferenceCategory
+        <com.hc2i.datamonitor.core.base.PreferenceCategory
             android:title="@string/settings_general"
             app:iconSpaceReserved="false"
             app:allowDividerAbove="false"
             app:allowDividerBelow="false">
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/setup_add_data_plan"
                 android:key="add_data_plan"
                 app:iconSpaceReserved="false"
                 app:widgetLayout="@layout/preference_right_arrow"
                 app:summary="@string/add_data_plan_summary"/>
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/setup_usage_reset_time"
                 android:key="data_usage_reset_time"
                 app:iconSpaceReserved="false"
                 app:widgetLayout="@layout/preference_right_arrow"
                 app:summary="@string/usage_reset_time_placeholder"/>
 
-            <com.drnoob.datamonitor.core.base.SwitchPreferenceCompat
+            <com.hc2i.datamonitor.core.base.SwitchPreferenceCompat
                 android:title="@string/setup_auto_update_data_plan"
                 android:key="auto_update_data_plan"
                 app:iconSpaceReserved="false"
@@ -196,15 +196,15 @@
                 android:defaultValue="false"
                 app:isPreferenceVisible="false"/>
 
-            <com.drnoob.datamonitor.core.base.Preference
+            <com.hc2i.datamonitor.core.base.Preference
                 android:title="@string/exclude_apps"
                 android:key="exclude_apps"
                 app:iconSpaceReserved="false"
                 app:widgetLayout="@layout/preference_right_arrow"
                 app:summary="@string/exclude_apps_summary"/>
 
-        </com.drnoob.datamonitor.core.base.PreferenceCategory>
+        </com.hc2i.datamonitor.core.base.PreferenceCategory>
 
-    </com.drnoob.datamonitor.core.base.PreferenceHeader>
+    </com.hc2i.datamonitor.core.base.PreferenceHeader>
 
 </PreferenceScreen>

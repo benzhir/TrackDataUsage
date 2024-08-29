@@ -3,9 +3,9 @@
 All notable changes to Data Monitor will be documented in this file.
 
 
-## v2.3.2
+## v1.0.0
 
-Data Monitor v2.3.2 release <br>
+Data Monitor v1.0.0 release <br>
 This release includes certain changes and improvements.
 
 ### What's new?

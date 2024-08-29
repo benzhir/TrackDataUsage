@@ -2,13 +2,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.drnoob.datamonitor.core.base.PreferenceCategory
+    <com.hc2i.datamonitor.core.base.PreferenceCategory
         android:title="@string/support_and_development"
         app:iconSpaceReserved="false"
         app:allowDividerAbove="false"
         app:allowDividerBelow="false">
 
-        <com.drnoob.datamonitor.core.base.Preference
+        <com.hc2i.datamonitor.core.base.Preference
             android:key="itsdrnoob"
             android:summary="@string/itsdrnoob_summary"
             android:title="@string/itsdrnoob"
@@ -19,9 +19,9 @@
                 android:action="android.intent.action.VIEW"
                 android:data="@string/github_itsdrnoob" />
 
-        </com.drnoob.datamonitor.core.base.Preference>
+        </com.hc2i.datamonitor.core.base.Preference>
 
-        <com.drnoob.datamonitor.core.base.Preference
+        <com.hc2i.datamonitor.core.base.Preference
             android:key="atharvshinde"
             android:summary="@string/atharvshinde_summary"
             android:title="@string/atharvshinde"
@@ -32,9 +32,9 @@
                 android:action="android.intent.action.VIEW"
                 android:data="@string/github_atharvshinde" />
 
-        </com.drnoob.datamonitor.core.base.Preference>
+        </com.hc2i.datamonitor.core.base.Preference>
 
-        <com.drnoob.datamonitor.core.base.Preference
+        <com.hc2i.datamonitor.core.base.Preference
             android:key="comradekingu"
             android:summary="@string/comradekingu_summary"
             android:title="@string/comradekingu"
@@ -45,11 +45,11 @@
                 android:action="android.intent.action.VIEW"
                 android:data="@string/github_comradekingu" />
 
-        </com.drnoob.datamonitor.core.base.Preference>
+        </com.hc2i.datamonitor.core.base.Preference>
 
-    </com.drnoob.datamonitor.core.base.PreferenceCategory>
+    </com.hc2i.datamonitor.core.base.PreferenceCategory>
 
-    <com.drnoob.datamonitor.core.base.PreferenceCategory
+    <com.hc2i.datamonitor.core.base.PreferenceCategory
         android:title="@string/label_translators"
         app:iconSpaceReserved="false"
         app:allowDividerAbove="false"

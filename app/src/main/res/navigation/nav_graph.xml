@@ -7,30 +7,30 @@
 
     <fragment
         android:id="@+id/bottom_menu_setup"
-        android:name="com.drnoob.datamonitor.ui.fragments.SetupFragment$SetupPreference"
+        android:name="com.hc2i.datamonitor.ui.fragments.SetupFragment$SetupPreference"
         android:label="@string/setup" >
     </fragment>
     <fragment
         android:id="@+id/bottom_menu_home"
-        android:name="com.drnoob.datamonitor.ui.fragments.HomeFragment"
+        android:name="com.hc2i.datamonitor.ui.fragments.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" >
     </fragment>
     <fragment
         android:id="@+id/bottom_menu_app_data_usage"
-        android:name="com.drnoob.datamonitor.ui.fragments.AppDataUsageFragment"
+        android:name="com.hc2i.datamonitor.ui.fragments.AppDataUsageFragment"
         android:label="@string/app_data_usage"
         tools:layout="@layout/fragment_app_data_usage">
     </fragment>
     <fragment
         android:id="@+id/bottom_menu_network_diagnostics"
-        android:name="com.drnoob.datamonitor.ui.fragments.NetworkDiagnosticsFragment"
+        android:name="com.hc2i.datamonitor.ui.fragments.NetworkDiagnosticsFragment"
         android:label="@string/network_diagnostics"
         tools:layout="@layout/fragment_network_diagnostics">
     </fragment>
     <fragment
         android:id="@+id/system_data_usage"
-        android:name="com.drnoob.datamonitor.ui.fragments.SystemDataUsageFragment"
+        android:name="com.hc2i.datamonitor.ui.fragments.SystemDataUsageFragment"
         tools:layout="@layout/fragment_system_data_usage"
         android:label="@string/app_data_usage"/>
 </navigation>

@@ -33,7 +33,7 @@
 
         <fragment
             android:id="@+id/donate"
-            class="com.drnoob.datamonitor.ui.fragments.DonateFragment$Donate"
+            class="com.hc2i.datamonitor.ui.fragments.DonateFragment$Donate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="-30dp"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.drnoob.datamonitor">
+    package="com.hc2i.datamonitor">
 
     <uses-permission
         android:name="android.permission.PACKAGE_USAGE_STATS"
@@ -29,7 +29,7 @@
     </queries>
 
     <application
-        android:name=".core.base.DataMonitor"
+        android:name="com.hc2i.datamonitor.core.base.DataMonitor"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -38,7 +38,7 @@
         android:theme="@style/Theme.DataMonitor"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ui.activities.AppPickerActivity"
+            android:name="com.hc2i.datamonitor.ui.activities.AppPickerActivity"
             android:exported="false"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"
@@ -48,7 +48,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.activities.SetupActivity"
+            android:name="com.hc2i.datamonitor.ui.activities.SetupActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.DataMonitor.Splash"
@@ -60,20 +60,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activities.ContainerActivity"
+            android:name="com.hc2i.datamonitor.ui.activities.ContainerActivity"
             android:exported="false"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".ui.activities.WallOfThanksActivity"
+            android:name="com.hc2i.datamonitor.ui.activities.WallOfThanksActivity"
             android:exported="false"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"/>
 
         <receiver
-            android:name=".Widget.DataUsageWidget"
+            android:name="com.hc2i.datamonitor.Widget.DataUsageWidget"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -89,16 +89,16 @@
         </receiver>
 
         <service
-            android:name=".utils.NotificationService"
+            android:name="com.hc2i.datamonitor.utils.NotificationService"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name=".utils.DataUsageMonitor"
+            android:name="com.hc2i.datamonitor.utils.DataUsageMonitor"
             android:enabled="true"
             android:exported="true" />
 
         <receiver
-            android:name=".utils.DataUsageMonitor$DataMonitor"
+            android:name="com.hc2i.datamonitor.utils.DataUsageMonitor$DataMonitor"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SCREEN_ON" />
@@ -106,14 +106,14 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".utils.NotificationService$NotificationRemover"
+            android:name="com.hc2i.datamonitor.utils.NotificationService$NotificationRemover"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".utils.NotificationService$NotificationUpdater"
+            android:name="com.hc2i.datamonitor.utils.NotificationService$NotificationUpdater"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SCREEN_OFF" />
@@ -123,7 +123,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".utils.LiveNetworkMonitor$LiveNetworkReceiver"
+            android:name="com.hc2i.datamonitor.utils.LiveNetworkMonitor$LiveNetworkReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SCREEN_ON" />
@@ -132,7 +132,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".utils.CompoundNotification$CompoundNotificationReceiver"
+            android:name="com.hc2i.datamonitor.utils.CompoundNotification$CompoundNotificationReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SCREEN_ON" />
@@ -142,30 +142,30 @@
         </receiver>
 
         <service
-            android:name=".utils.LiveNetworkMonitor"
+            android:name="com.hc2i.datamonitor.utils.LiveNetworkMonitor"
             android:enabled="true"
             android:exported="true" />
         <service
-            android:name=".utils.CompoundNotification"
+            android:name="com.hc2i.datamonitor.utils.CompoundNotification"
             android:enabled="true"
             android:exported="false" />
 
         <activity
-            android:name=".ui.activities.MainActivity"
+            android:name="com.hc2i.datamonitor.ui.activities.MainActivity"
             android:exported="false"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.DataMonitor"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".ui.activities.CrashReportActivity"
+            android:name="com.hc2i.datamonitor.ui.activities.CrashReportActivity"
             android:exported="true"
             android:fitsSystemWindows="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
 
         <receiver
-            android:name=".utils.BootReceiver"
+            android:name="com.hc2i.datamonitor.utils.BootReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -173,7 +173,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".utils.DataPlanRefreshReceiver"
+            android:name="com.hc2i.datamonitor.utils.DataPlanRefreshReceiver"
             android:enabled="true"
             android:exported="true" />
 

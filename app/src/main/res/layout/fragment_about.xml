@@ -71,7 +71,7 @@
 
         <fragment
             android:id="@+id/fragment_about_prefs"
-            class="com.drnoob.datamonitor.ui.fragments.AboutFragment$SupportAndDevelopment"
+            class="com.hc2i.datamonitor.ui.fragments.AboutFragment$SupportAndDevelopment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_mid_large"/>
